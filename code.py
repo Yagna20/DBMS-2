@@ -39,7 +39,7 @@ def citations(paperIndex, citedList):
     return list
 
 i = 1
-for line in open("source.txt", encoding='utf-8'):
+for line in open("test1.txt", encoding='utf-8'):
     if title_pattern.search(line):
         title = line[2:]
     elif index_pattern.search(line):
